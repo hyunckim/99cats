@@ -8,4 +8,4 @@
 
 
 cat1 = Cat.create!(name: 'Garfield', color: 'Orange', sex: 'M', birth_date: '01-01-1990' )
-cat1 = Cat.create!(name: 'Gary', color: 'Brown', sex: 'M', birth_date: '06-01-2004' )
+cat2 = Cat.create!(name: 'Gary', color: 'Brown', sex: 'M', birth_date: '06-01-2004' )
