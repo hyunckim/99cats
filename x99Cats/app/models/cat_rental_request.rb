@@ -29,6 +29,13 @@ class CatRentalRequest < ActiveRecord::Base
     end
   end
 
+
+
+  # def approve!
+  #   ActiveRecord::Base.transaction do
+  #   end
+  # end
+
   belongs_to :cat
 
 end

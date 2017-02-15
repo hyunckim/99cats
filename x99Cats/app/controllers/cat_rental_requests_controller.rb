@@ -26,7 +26,7 @@ class CatRentalRequestsController < ApplicationController
   end
 
   def edit
-    @catrentalreqest =CatRentalRequest.find_by(id: params[:id])
+    @catrentalrequest =CatRentalRequest.find_by(id: params[:id])
     render :edit
   end
 

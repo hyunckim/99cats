@@ -24,7 +24,6 @@
     <option value="grey" <%= cat.color == "grey" ? "selected" : "" %>>grey</option>
     <option value="white" <%= cat.color == "white" ? "selected" : "" %>>white</option>
     <option value="black" <%= cat.color == "black" ? "selected" : "" %>>black</option>
-  </select><br>
 
   <label for="birth_date">Birthday</label>
   <input id="birth_date" type="date" name="cat[birth_date]" value = <%= cat.birth_date %>><br>
@@ -33,5 +32,5 @@
   <textarea name="cat[description]">
     <%= @cat.description %>
   </textarea><br>
-  <input type="submit" value = "<%= action == :edit ? "edit" : "add" %>>
+  <input type="submit" value = "<%= action == :edit ? "edit" : "add" %>">
 </form>
